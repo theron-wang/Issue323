@@ -1,0 +1,3 @@
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.8.1:compile (default-compile) on project core-time: Compilation failure
+[ERROR] .../core-time/src/main/java/com/cogvio/time/MutableClock.java:[18,13] [NullAway] initializer method does not guarantee @NonNull fields instant, zone are initialized along all control-flow paths (remember to check for exceptions or early returns).
+[ERROR]     (see http://t.uber.com/nullaway )
